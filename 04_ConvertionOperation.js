@@ -32,3 +32,37 @@ let StringNumber=String(someNumber)
 console.log(typeof StringNumber)
 
 
+console.log("5"+3)
+
+// ************************* operations ****************************
+
+console.log("\nNegative Value");
+
+let value=3
+let negValue=-value
+console.log(negValue);
+
+
+// Maths operation
+console.log("\nPower : 5**2");
+console.log(5**2)
+
+// String Concatination
+console.log("\n\"1\"+\"1\" : ","1"+"1");
+console.log("\"1\"+2 : ","1"+2);
+console.log("2+\"1\" : ",2+"1");
+console.log("\"1\"+2+2 : ","1"+2+2);
+console.log("\n2+2+\"2\" : ",2+2+"2");
+
+
+// JavaScript's Type Coercion (Automatic Conversion)
+// When using the - operator, JavaScript converts both operands to numbers
+console.log("7"-1);
+
+console.log("7" + 1); // "71" ← String concatenation
+console.log("7" - 1); // 6   ← Numeric subtraction
+
+
+let mydata=102
+console.log(mydata++); // postfix
+console.log(++mydata); // prefix or preincrement
